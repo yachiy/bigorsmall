@@ -8,13 +8,13 @@ public class Score {
     /**
      * 初期所持枚数
      */
-    private final int INITIAL_SCORE = 1000;
+    private static final int INITIAL_SCORE = 1000;
 
     /**
      * ゲームが終了するスコアの下限と上限
      */
-    private final int MIN_OVER_SCORE = 0;
-    private final int MAX_OVER_SCORE = 10000;
+    private static final int MIN_OVER_SCORE = 0;
+    private static final int MAX_OVER_SCORE = 10000;
 
     /**
      * 所持コインの枚数
@@ -35,7 +35,7 @@ public class Score {
         }
         this.value = value;
     }
-    
+
     public int getValue() {
         return value;
     }
